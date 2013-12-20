@@ -71,10 +71,10 @@ When you're writing tests for your application, you might need to wait until the
 
 ``` ruby
 it "saves all aggregations to the database" do
-	5.times { get "/page" }
+  5.times { get "/page" }
   PageviewAggregator.drain
-	pageviews = Pageview.find("/page").total
-	expect(pageviews).to eq(5)
+  pageviews = Pageview.find("/page").total
+  expect(pageviews).to eq(5)
 end
 ```
 
