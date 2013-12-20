@@ -53,9 +53,11 @@ See the configuration options below to see how to set these values.
 
 Configuration options are defined for each `Aggregator` subclass and are class methods that must be explicitly called on `self`:
 
+```ruby
 class MyAggregator < Aggregator
   self.option_name = <value>
 end
+```
 
 The available options are:
 
