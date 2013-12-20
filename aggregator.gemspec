@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "rake"
   spec.add_development_dependency "minitest", ">= 5.0.0"
+  spec.add_development_dependency "rubysl", "~> 2.0" if RUBY_ENGINE = "rbx"
 end
