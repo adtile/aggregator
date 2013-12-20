@@ -21,7 +21,7 @@ class PageviewAggregator < Aggregator
     collection ||= {}
     collection[item] = collection.fetch(item, 0) + 1
     collection
-	end
+  end
 
   def finish(collection)
     # Update the database based on your aggregated data:
