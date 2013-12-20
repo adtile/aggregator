@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Aggregator::VERSION
   spec.authors       = ["Joao Carlos"]
   spec.email         = ["joao@adtile.me"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Aggregate items on a separate thread.}
+  spec.description   = %q{Define aggregators that run on a separate thread so that you can do more, faster.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
